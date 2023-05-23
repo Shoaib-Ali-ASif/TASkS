@@ -1,0 +1,17 @@
+.grid-container {
+  background-color: aquamarine;
+  display: grid;
+  /* grid-template-columns: auto auto auto auto auto auto; */
+  grid-template-columns: repeat(6 , 1fr);
+  gap: 20px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 8, 131);
+
+  padding: 20px;
+}
+
+.item8 {
+  grid-area: 5 / 5  / 5 / 5 ;
+}
